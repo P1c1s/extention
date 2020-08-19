@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' pandamoroso.ddns.net 'unsafe-inline';">
+
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<body>
+
+<h1>The XMLHttpRequest Object</h1>
+
+<form action="">
+<select name="customers" onchange="showCustomer(this.value)">
+<option value="">Scegli:</option>
+<option value="3">Opzione 1</option>
+<option value="4 ">Opzione 2</option>
+<option value="5">Opzione 3d</option>
+</select>
+</form>
+<br>
+
+<div id="txtHint">Selzione un ozione</div>
+<script type="text/javascript" src="app.js" ></script>
+
+</body>
+</html>
